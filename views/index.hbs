@@ -1,0 +1,12 @@
+{{!-- display the user, text and date for each message --}}
+
+{{#each messages}}
+    <div>
+        <h1>{{this.user}}</h1>
+        <p>{{this.text}}</p>
+        <p>{{this.added}}</p>
+    </div>
+{{/each}}
+
+
+<a href="/new">New Message</a>
